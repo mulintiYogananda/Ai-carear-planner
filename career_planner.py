@@ -4,7 +4,7 @@ from groq import Groq
 # ==============================
 # 🔑 GROQ API KEY
 # ==============================
-client = Groq(api_key=("GROQ_API_KEY")
+client = Groq(api_key=("GROQ_API_KEY"))
 # ==============================
 # 🎨 PAGE CONFIG
 # ==============================
