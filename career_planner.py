@@ -1,10 +1,11 @@
 import streamlit as st
 from groq import Groq
 
+
 # ==============================
 # 🔑 GROQ API KEY
 # ==============================
-client = Groq(api_key=("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"))
+client = Groq(api_key=st.secrets["API_KEY"])
 # ==============================
 # 🎨 PAGE CONFIG
 # ==============================
